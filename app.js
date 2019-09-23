@@ -67,8 +67,24 @@ var userData = {
     name: "Vicki",
     age: 22
 };
-// userData = {}; error missing string name and number objects
+// userData = {}; error missing string name and number age properties
 // userData{
 //     a: "hello",
 //     b: 22
 // } error properties don't match name and age
+// complex object
+var complex = {
+    data: [100, 3, 10],
+    output: function (all) {
+        return this.data;
+    }
+};
+var complex2 = {
+    data: [100, 3, 10],
+    output: function (all) {
+        return this.data;
+    }
+};
+// union types
+var myRealRealAge = 27;
+myRealRealAge = "27";
