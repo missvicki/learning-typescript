@@ -34,3 +34,13 @@ hobby = [1];
 // tuples
 let address: [string, number] = ["Superstreet", 99];
 // let address: [string, number] = [99, "Superstreet"]; //error
+
+// enums
+enum Color {
+  Gray, //0
+  Green = 100, //1 if not assigned a number
+  Blue = 2 //increments to 101 if not assigned 2
+}
+
+let myColor: Color = Color.Blue;
+console.log(myColor);
