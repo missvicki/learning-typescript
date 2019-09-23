@@ -99,6 +99,16 @@ if (typeof finalValue == "string") {
     console.log("Final value is a string");
 }
 // never
+// function never returns anything
 function neverReturns() {
     throw new Error("An error!");
 }
+// nullable types
+var canBeNull = 12;
+canBeNull = null;
+console.log("I can be null", canBeNull);
+var canAlsoBeNull;
+canAlsoBeNull = null;
+console.log("I am null", canAlsoBeNull);
+var canThisBeAny = null;
+canThisBeAny = 2;

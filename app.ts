@@ -129,3 +129,13 @@ if (typeof finalValue == "string") {
 function neverReturns(): never {
   throw new Error("An error!");
 }
+
+// nullable types
+let canBeNull: number | null = 12;
+canBeNull = null;
+console.log("I can be null", canBeNull);
+let canAlsoBeNull;
+canAlsoBeNull = null;
+console.log("I am null", canAlsoBeNull);
+let canThisBeAny: any = null;
+canThisBeAny = 2;
