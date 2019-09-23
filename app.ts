@@ -76,3 +76,15 @@ let myMultiply: (val1: number, val2: number) => number;
 // myMultiply();error no arguments provided
 myMultiply = multiply;
 console.log(myMultiply(10, 2));
+
+// objects
+let userData: { name: string; age: number } = {
+  name: "Vicki",
+  age: 22
+};
+
+// userData = {}; error missing string name and number age properties
+// userData{
+//     a: "hello",
+//     b: 22
+// } error properties don't match name and age

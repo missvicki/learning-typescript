@@ -58,7 +58,17 @@ console.log(multiply(2, 3));
 // console.log(multiply(2, "Max")); return NaN
 // function types
 var myMultiply;
-myMultiply = sayHello;
-myMultiply();
+// myMultiply = sayHello; error
+// myMultiply();error no arguments provided
 myMultiply = multiply;
 console.log(myMultiply(10, 2));
+// objects
+var userData = {
+    name: "Vicki",
+    age: 22
+};
+// userData = {}; error missing string name and number objects
+// userData{
+//     a: "hello",
+//     b: 22
+// } error properties don't match name and age
