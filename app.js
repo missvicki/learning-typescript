@@ -7,4 +7,7 @@ var myAge = 27;
 // myAge = "Max"; error
 // boolean
 var haHobbies = false;
-hasHobbies = 1;
+// hasHobbies = 1; error
+// assign types
+var myRealAge;
+myRealAge = 27;
