@@ -98,3 +98,7 @@ if (typeof finalValue == "number") {
 if (typeof finalValue == "string") {
     console.log("Final value is a string");
 }
+// never
+function neverReturns() {
+    throw new Error("An error!");
+}
