@@ -50,3 +50,29 @@ let car: any = "BMW";
 console.log(car);
 car = { brand: "BMW", series: 3 };
 console.log(car);
+
+// functions
+function returnMyName(): string {
+  return myName;
+  //   return myAge; error
+}
+console.log(returnMyName());
+
+function sayHello(): void {
+  console.log("Hello");
+  //   return myName; //error
+}
+
+// argument types
+function multiply(value1: number, value2: number): number {
+  return value1 * value2;
+}
+console.log(multiply(2, 3));
+// console.log(multiply(2, "Max")); return NaN
+
+// function types
+let myMultiply: (val1: number, val2: number) => number;
+// myMultiply = sayHello; error
+// myMultiply();error no arguments provided
+myMultiply = multiply;
+console.log(myMultiply(10, 2));

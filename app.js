@@ -40,3 +40,25 @@ var car = "BMW";
 console.log(car);
 car = { brand: "BMW", series: 3 };
 console.log(car);
+// functions
+function returnMyName() {
+    return myName;
+    //   return myAge; error
+}
+console.log(returnMyName());
+function sayHello() {
+    console.log("Hello");
+    //   return myName; //error
+}
+// argument types
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+console.log(multiply(2, 3));
+// console.log(multiply(2, "Max")); return NaN
+// function types
+var myMultiply;
+myMultiply = sayHello;
+myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(10, 2));
