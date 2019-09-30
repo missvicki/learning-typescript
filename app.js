@@ -157,3 +157,11 @@ function makeArray() {
     return args;
 }
 console.log(makeArray(1, 2, 6, 3));
+// destructuring
+console.log("destructuring");
+var a = ["cooking, bie"];
+var hob1 = a[0], hob2 = a[1];
+console.log(hob1, hob2);
+var userD = { userName: "a", _age: 2 };
+var userName = userD.userName, _age = userD._age;
+console.log(userName, _age);

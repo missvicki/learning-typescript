@@ -188,3 +188,13 @@ function makeArray(...args: number[]) {
   return args;
 }
 console.log(makeArray(1, 2, 6, 3));
+
+// destructuring
+console.log("destructuring");
+const a = ["cooking, bie"];
+const [hob1, hob2] = a;
+console.log(hob1, hob2);
+
+const userD = { userName: "a", _age: 2 };
+const { userName, _age } = userD;
+console.log(userName, _age);
