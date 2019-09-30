@@ -117,3 +117,13 @@ var variable = "test";
 console.log(variable);
 variable = "reasigning";
 console.log(variable);
+var v = 2;
+console.log(v);
+//  v = "saj" error
+// block scope
+function reset() {
+    var variable = null;
+    console.log(variable);
+}
+reset();
+console.log(variable);

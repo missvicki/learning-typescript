@@ -151,3 +151,12 @@ console.log(variable);
 const v = 2;
 console.log(v);
 //  v = "saj" error
+
+// block scope
+function reset() {
+  // console.log(variable) undefined
+  let variable = null;
+  console.log(variable);
+}
+reset();
+console.log(variable);
