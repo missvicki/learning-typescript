@@ -177,3 +177,14 @@ const countdown = (start: number = 10) => {
   console.log("Done", start);
 };
 countdown();
+
+// rest and spread
+console.log("Rest & Spread");
+const n = [1, 443, 231, 4];
+console.log(Math.max(...n)); // spread
+
+function makeArray(...args: number[]) {
+  //rest operator, looks like spread but used in a function
+  return args;
+}
+console.log(makeArray(1, 2, 6, 3));

@@ -144,3 +144,16 @@ var countdown = function (start) {
     console.log("Done", start);
 };
 countdown();
+// rest and spread
+console.log("Rest & Spread");
+var n = [1, 443, 231, 4];
+console.log(Math.max.apply(Math, n)); // spread
+function makeArray() {
+    var args = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        args[_i] = arguments[_i];
+    }
+    //rest operator, looks like spread but used in a function
+    return args;
+}
+console.log(makeArray(1, 2, 6, 3));
