@@ -167,3 +167,13 @@ const addNumbers = (number1: number, number2: number): number => {
   return number1 + number2;
 };
 console.log(addNumbers(2, 3));
+
+// default parameter
+console.log("default parameters");
+const countdown = (start: number = 10) => {
+  while (start > 0) {
+    start--;
+  }
+  console.log("Done", start);
+};
+countdown();

@@ -134,3 +134,13 @@ var addNumbers = function (number1, number2) {
     return number1 + number2;
 };
 console.log(addNumbers(2, 3));
+// default parameter
+console.log("default parameters");
+var countdown = function (start) {
+    if (start === void 0) { start = 10; }
+    while (start > 0) {
+        start--;
+    }
+    console.log("Done", start);
+};
+countdown();
