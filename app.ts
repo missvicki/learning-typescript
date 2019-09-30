@@ -195,6 +195,9 @@ const a = ["cooking, bie"];
 const [hob1, hob2] = a;
 console.log(hob1, hob2);
 
-const userD = { userName: "a", _age: 2 };
+const userD = { userName: "alas", _age: 2 };
 const { userName, _age } = userD;
 console.log(userName, _age);
+
+// temperate literals
+console.log(`Hi my name is ${userName}`);

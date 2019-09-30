@@ -162,6 +162,8 @@ console.log("destructuring");
 var a = ["cooking, bie"];
 var hob1 = a[0], hob2 = a[1];
 console.log(hob1, hob2);
-var userD = { userName: "a", _age: 2 };
+var userD = { userName: "alas", _age: 2 };
 var userName = userD.userName, _age = userD._age;
 console.log(userName, _age);
+// temperate literals
+console.log("Hi my name is " + userName);
