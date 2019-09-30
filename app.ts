@@ -160,3 +160,10 @@ function reset() {
 }
 reset();
 console.log(variable);
+
+// arrow functions
+console.log("Arrow Funcitons");
+const addNumbers = (number1: number, number2: number): number => {
+  return number1 + number2;
+};
+console.log(addNumbers(2, 3));

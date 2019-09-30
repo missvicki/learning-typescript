@@ -122,8 +122,15 @@ console.log(v);
 //  v = "saj" error
 // block scope
 function reset() {
+    // console.log(variable) undefined
     var variable = null;
     console.log(variable);
 }
 reset();
 console.log(variable);
+// arrow functions
+console.log("Arrow Funcitons");
+var addNumbers = function (number1, number2) {
+    return number1 + number2;
+};
+console.log(addNumbers(2, 3));
