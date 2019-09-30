@@ -1,4 +1,3 @@
-"use strict";
 // string
 var myName = "Max";
 // myName = 2; error
@@ -112,3 +111,9 @@ canAlsoBeNull = null;
 console.log("I am null", canAlsoBeNull);
 var canThisBeAny = null;
 canThisBeAny = 2;
+// ES6 in typescript
+// let and const
+var variable = "test";
+console.log(variable);
+variable = "reasigning";
+console.log(variable);

@@ -139,3 +139,15 @@ canAlsoBeNull = null;
 console.log("I am null", canAlsoBeNull);
 let canThisBeAny: any = null;
 canThisBeAny = 2;
+
+// ES6 in typescript
+
+// let and const
+let variable = "test";
+console.log(variable);
+variable = "reasigning";
+console.log(variable);
+
+const v = 2;
+console.log(v);
+//  v = "saj" error
